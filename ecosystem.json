@@ -1,0 +1,12 @@
+{
+  "apps" : [
+    {
+      "name"             : "bazimotic",
+      "script"           : "app.js",
+      "max_restarts"     : 0,
+      "exec_interpreter" : "./node_modules/.bin/babel-node",
+      "autorestart"      : true,
+      "pmx"              : false
+    }
+  ]
+}
